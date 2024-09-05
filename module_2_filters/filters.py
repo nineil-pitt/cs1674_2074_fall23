@@ -22,6 +22,7 @@ def filters_slide6():
     print('data type: ', im.dtype)
     print('min: ', im.min())
     print('max: ', im.max())
+    # im2 = im
     im2 = im.astype(np.float32)  # Convert to float 32, so we can do floating operations
 
     # add noise
@@ -91,6 +92,6 @@ def examples():
 
 
 # main
-# filters_slide6()
+filters_slide6()
 # filters_slide26()
-examples()
+# examples()
